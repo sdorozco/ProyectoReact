@@ -1,7 +1,7 @@
 import { createGlobalStyle } from "styled-components";
 
 export default createGlobalStyle `
-root{
+:root{
     --fondo_ #edededed;
     --black: #000;
     --white: #fff;

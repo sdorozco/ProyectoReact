@@ -1,8 +1,11 @@
 import React from "react";
 import Header from "../Header";
-import Hero from "../Hero";
-import Product from "../Product";
-import { Container, Wrapper } from "./style/index";
+import { Hero } from "../Hero";
+import { Product } from "../Product";
+
+
+import { Container, Wrapper } from "./style";
+
 
 const Layout = () => {
   return (
