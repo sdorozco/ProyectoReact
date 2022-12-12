@@ -2,7 +2,8 @@ import styled from "styled-components"
 
 export const ContainerHeader = styled.header`
 width: 100vw;
-background-color: #fff159;
+background-color: var(--yellow);
+;
 height: 100px
 `
 
