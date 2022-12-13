@@ -1,5 +1,7 @@
 import React from "react";
 import InformationComponent from "./components/InformationComponent/InformationComponent";
+import { InfoSellerComponent } from "./components/InfoSellerComponent";
+import WarrantyComponent from "./components/WarrantyComponent/WarrantyComponent";
 import {
   ContainerProduct,
   ColumnProduct,
@@ -22,8 +24,9 @@ const Product = () => {
         </ColumnProduct>
         <ColumnProduct>
           {/* <ProductSale/>
-          <InfoSeller />
-          <Galery/> */}
+           */}
+          <InfoSellerComponent />
+          <WarrantyComponent />
         </ColumnProduct>
       </PanelProduct>
     </ContainerProduct>
